@@ -13,7 +13,7 @@
         .subtitle { font-size: 1.2rem; color: #8b949e; margin-bottom: 1.5rem; }
         .project-card { background: var(--card-bg); border: 1px solid #30363d; padding: 1.5rem; border-radius: 6px; margin: 20px 0; }
         .badge { background: #21262d; border: 1px solid #30363d; padding: 4px 8px; border-radius: 4px; font-size: 0.8rem; margin-right: 5px; color: var(--accent); }
-        .btn { display: inline-block; padding: 8px 16px; background: var(--accent); color: #fff; text-decoration: none; border-radius: 6px; font-weight: 600; margin-top: 15px; }
+        .btn { display: inline-block; padding: 8px 16px; background: var(--accent); color: #fff; text-decoration: none; border-radius: 6px; font-weight: 600; margin-top: 15px; margin-right: 10px; }
         .social-links a { color: var(--text); font-size: 1.5rem; margin-right: 15px; text-decoration: none; }
         .social-links a:hover { color: var(--accent); }
     </style>
@@ -30,28 +30,45 @@
             </div>
         </header>
 
+        <section id="skills">
+            <h2>Technical Skills</h2>
+            <div class="project-card">
+                <p><strong>Languages:</strong> <span class="badge">Python</span> <span class="badge">SQL</span> <span class="badge">JavaScript</span> <span class="badge">C++</span></p>
+                <p><strong>Machine Learning:</strong> <span class="badge">CNN</span> <span class="badge">RNN</span> <span class="badge">LSTM</span> <span class="badge">TensorFlow</span> <span class="badge">NLTK</span></p>
+            </div>
+        </section>
+
         <section id="experience">
             <h2>Experience</h2>
             <div class="project-card">
                 <h3>AI/ML Intern | NIELIT Gorakhpur</h3>
-                <p>Developing deep learning systems using CNN-BiLSTM and building preprocessing pipelines for facial landmark detection[cite: 13, 14, 20, 21].</p>
+                <p>Developing deep learning systems using CNN-BiLSTM and building preprocessing pipelines for facial landmark detection[cite: 13, 14, 20, 21]. Also designing conversational AI chatbots[cite: 22].</p>
             </div>
         </section>
 
         <section id="projects">
             <h2>Featured Projects</h2>
+
             <div class="project-card">
                 <h3>Lip Reading AI (CNN-BiLSTM)</h3>
                 <p>A spatiotemporal recognition pipeline. Presented research paper at <strong>NICEDT 2026 Conference</strong>[cite: 27, 31, 40, 41].</p>
                 <div><span class="badge">TensorFlow</span><span class="badge">OpenCV</span><span class="badge">MediaPipe</span><span class="badge">Streamlit</span></div>
-                <a href="https://github.com/Ragita-kumari/Lip-Reading-Model" class="btn">View Project</a>
+                <a href="https://github.com/Ragita-kumari/Lip-Reading-Model" class="btn" target="_blank">View Code</a>
+                <a href="#" class="btn" style="background: transparent; border: 1px solid var(--accent);">Live Demo</a>
+            </div>
+
+            <div class="project-card">
+                <h3>ArticulateAI</h3>
+                <p>A project focused on advanced AI/ML implementations and NLP modeling.</p>
+                <div><span class="badge">Python</span><span class="badge">AI</span><span class="badge">NLP</span></div>
+                <a href="https://github.com/Ragita-kumari/ArticulateAI" class="btn" target="_blank">View Code</a>
             </div>
 
             <div class="project-card">
                 <h3>Fake News Detection System</h3>
                 <p>Real-time NLP classifier using TF-IDF and Naïve Bayes[cite: 35, 37]. Deployed via Streamlit web interface[cite: 38].</p>
                 <div><span class="badge">Scikit-learn</span><span class="badge">NLP</span><span class="badge">Streamlit</span></div>
-                <a href="https://github.com/Ragita-kumari" class="btn">View Project</a>
+                <a href="https://github.com/Ragita-kumari" class="btn" target="_blank">View Code</a>
             </div>
         </section>
     </div>
